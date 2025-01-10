@@ -1,0 +1,72 @@
+.glassBlur {
+  background: rgba(146, 146, 146, 0.048);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 0.5px solid rgba(255, 255, 255, 0.062);
+}
+.topBar-bg {
+  background: rgba(146, 146, 146, 0.082);
+  backdrop-filter: blur(8.5px);
+  -webkit-backdrop-filter: blur(8.5px);
+}
+.message-bg {
+  background: rgba(146, 146, 146, 0.055);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+}
+
+.orangeglass {
+    background: rgba(241, 163, 62, 0.075);
+    backdrop-filter: blur(8.5px);
+    -webkit-backdrop-filter: blur(8.5px);
+  }
+.tealglass {
+    background: rgba(62, 241, 217, 0.075);
+    backdrop-filter: blur(8.5px);
+    -webkit-backdrop-filter: blur(8.5px);
+  }
+
+.dot1 {
+  height: 1000px;
+  width: 1000px;
+  background-image: radial-gradient(closest-side, #0cb37e2c, #00000000);
+  position: absolute;
+  top: -500px;
+  left: -500px;
+}
+.dot2 {
+  height: 1000px;
+  width: 1000px;
+  background-image: radial-gradient(closest-side, #f5ad7233, #00000000);
+  position: absolute;
+  bottom: -500px;
+  right: -500px;
+}
+.dot3 {
+  height: 1000px;
+  width: 1000px;
+  background-image: radial-gradient(closest-side, #fb747436, #00000000);
+  position: absolute;
+  top: -500px;
+  right: -500px;
+}
+
+/* Custom Scrollbar Styles */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #585858; /* Background color of the track */
+  border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #b1b1b1; /* Thumb color */
+  border-radius: 10px; /* Rounded corners for the thumb */
+  border: 2px solid #f1f1f1; /* Optional border around the thumb */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: #357abd; /* Thumb color on hover */
+}
