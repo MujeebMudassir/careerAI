@@ -29,7 +29,7 @@
 .dot1 {
   height: 1000px;
   width: 1000px;
-  background-image: radial-gradient(closest-side, #0cb37e2c, #00000000);
+  background-image: radial-gradient(closest-side, #0cb37e6c, #00000000);
   position: absolute;
   top: -500px;
   left: -500px;
@@ -37,7 +37,7 @@
 .dot2 {
   height: 1000px;
   width: 1000px;
-  background-image: radial-gradient(closest-side, #f5ad7233, #00000000);
+  background-image: radial-gradient(closest-side, #f5ad7269, #00000000);
   position: absolute;
   bottom: -500px;
   right: -500px;
@@ -45,7 +45,7 @@
 .dot3 {
   height: 1000px;
   width: 1000px;
-  background-image: radial-gradient(closest-side, #fb747436, #00000000);
+  background-image: radial-gradient(closest-side, #fb74746e, #00000000);
   position: absolute;
   top: -500px;
   right: -500px;
